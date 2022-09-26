@@ -20,5 +20,9 @@ In order to training Super-Resolution (SR) model, **High-Resolution (HR)** and *
 ## EDSR model
 Enhanced Deep Super-Resolution (EDSR) is based on [this paper](https://arxiv.org/abs/1707.02921), and [source code reference](https://keras.io/examples/vision/edsr/).
 
+<div align=center>
+<img src="" width="800">
+</div>
+
 ## Result
 
