@@ -4,8 +4,8 @@
 
 Using **2** satellite images around Taiwan to produce two data set for training. These two dataset were uploaded on kaggle.
 
-1. [Sentinel-2 satellite](https://www.kaggle.com/datasets/mchsieh/sentinel2-taiwan-dataset)
-2. [Spot-6/7 satellites](https://www.kaggle.com/datasets/mchsieh/spot-taiwan-dataset)
+1. [Sentinel-2 satellite (kaggle)](https://www.kaggle.com/datasets/mchsieh/sentinel2-taiwan-dataset)
+2. [Spot-6/7 satellites (kaggle)](https://www.kaggle.com/datasets/mchsieh/spot-taiwan-dataset)
 
 |                   |     Sentinel-2     |      SPOT-6/7     |
 |------------------:|:------------------:|:-----------------:|
