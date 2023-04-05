@@ -9,12 +9,12 @@ Using **2** satellite images around Taiwan to produce two datasets for training.
 1. [Sentinel-2 satellite (kaggle)](https://www.kaggle.com/datasets/mchsieh/sentinel2-taiwan-dataset)
 2. [Spot-6/7 satellites (kaggle)](https://www.kaggle.com/datasets/mchsieh/spot-taiwan-dataset)
 
-|                   |     Sentinel-2     |      SPOT-6/7     |
-|------------------:|:------------------:|:-----------------:|
-|   Resolution      |           10 m     |           5 m     |
-|   Number of Bands | 10?(RGB used only) | 4?(RGB used only) |
-|   Number of Files |           ??       |           ??      |
-|   File Size       |           ??       |           ??      | 
+|                   |      Sentinel-2     |      SPOT-6/7      |
+|------------------:|:-------------------:|:------------------:|
+|   Resolution      |           10 m      |           5 m      |
+|   Number of Bands |  13 (RGB used only) |  4 (RGB used only) |
+|   Number of Files |         1022        |        1000        |
+|   File Size       |      487.99(MB)     |     489.3(MB)      | 
 
 In order to training Super-Resolution (SR) model, **High-Resolution (HR)** and **Low-Resolution (LR)** patches are needed for whole processing. The original satellite data would be cropped into 512 $\times$ 512, considering as the **HR** patches. On the other hand, the **LR** patches are directly downsampling by factor of **2**, i.e. 256 $\times$ 256 pixels for a single patch.\
 Most of images (~80%) were used for training the EDSR model and some of them (~20%) were used for validation during training phase. After training, the weight was saved in [```./edsr_wts_030_mae.h5```](https://github.com/H-MC/Satellite-Image-SuperResolution/blob/main/edsr_wts_030_mae.h5). 10 satellite images in [```./Samples```](https://github.com/H-MC/Satellite-Image-SuperResolution/tree/main/Samples) were additionally chosen for testing and evaluating the model performance.
