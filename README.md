@@ -39,7 +39,7 @@ where $\mu_x,\mu_y$ are the mean values, and $\sigma_x,\sigma_y$ are the standar
 
 ## Result
 Here, we compared **EDSR**'s results with directly applying **bicubic** and **bilinear** method.\
-The LR images are reduced their resolution by factor of 2 from the images in ```./Samples```, and enlarged at the centers for better visibility.
+The LR images are reduced their resolution by factor of 2 from the images in [```./Samples```](https://github.com/H-MC/Satellite-Image-SuperResolution/tree/main/Samples), and enlarged at the centers for better visibility.
 <div>
 <img src="https://github.com/H-MC/Satellite-Image-SuperResolution/blob/main/Figures/Result1.png" width="350"><img src="https://github.com/H-MC/Satellite-Image-SuperResolution/blob/main/Figures/Result2.png" width="350">
 </div>
